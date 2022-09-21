@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jofi | Lo-fi sounds</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@700&family=Inter:wght@400;700&family=Playfair+Display:ital,wght@1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Script for the audio -->
+    <script src="index.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        <div class="logo-container">
+            <p class="logo">jofi</p>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="#">How it works</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="hero-title"> Your calm, digital environment to focus</p>
+            
+            <hr>
+
+            <img src="./images/lofi-girl-music.gif" alt="lofi girl gif">
+        </section>
+        <section class="login">
+            <div class="button">
+                <p class="btn-text">Login</p>
+            </div>
+            <p class="txt-txt">Try for free</p>
+        </section>
+        <div class="mid">
+            <p class="mid-text">_Everything you need to make the most of your time</p>
+        </div>
+
+        <section class="content">
+<!-- added the forest.mp3 as an audio and triggered the play when the div element is clicked-->
+
+                <div class="e-container e-hover" id="forest" >
+                <p class="emoji">&#127795;</p>
+                <p class="cnt-description">Forest</p>
+                <audio src="forest.mp3" type="audio/mpeg" id="forestAUDIO" class="audio" loop="true"></audio>
+            </div>
+
+
+            <!-- <a href="#"><div class="e-container e-hover">
+                <p class="emoji">&#127784;</p>
+                <p class="cnt-description">Snow</p>
+            </a>
+            </div> -->
+
+            <div class="e-container e-hover">
+                <p class="emoji">&#127783;</p>
+                <p class="cnt-description">Rain</p>
+                <audio src="Rain.mp3" type="audio/mpeg" id="" class="audio"></audio>
+            </div>
+            
+            <div class="e-container e-hover">
+                <p class="emoji">&#127785;</p>
+                <p class="cnt-description">Lightning</p>
+                <audio src="Storm.mp3" type="audio/mpeg" id="" class="audio"></audio>
+
+            </div>
+
+            <div class="e-container e-hover">
+                <p class="emoji">&#128293;</p>
+                <p class="cnt-description">Fire place</p>
+            </div>
+
+            <div class="e-container e-hover">
+                <p class="emoji">&#127769;</p>
+                <p class="cnt-description">Night</p>
+            </div>
+
+            <div class="e-container e-hover">
+                <p class="emoji">&#127788;</p>
+                <p class="cnt-description">Wind</p>
+            </div>
+
+            <div class="e-container e-hover">
+                <p class="emoji">&#127811;</p>
+                <p class="cnt-description">Leaves</p>
+            </div>
+
+            <div class="e-container e-hover">
+                <p class="emoji">&#128214;</p>
+                <p class="cnt-description">Book</p>
+            </div>
+
+            <div class="e-container e-hover">
+                <p class="emoji">&#128739;</p>
+                <p class="cnt-description">Road</p>
+            </div>
+
+            <div class="e-container e-hover">
+                <p class="emoji">&#129417;</p>
+                <p class="cnt-description">Bird</p>
+            </div>
+
+            <div class="e-container e-hover">
+                <p class="emoji">&#129496;</p>
+                <p class="cnt-description">Meditation</p>
+            </div>
+
+            <a href=""><div class="e-container e-hover">
+                <p class="emoji">&#127754;</p>
+                <p class="cnt-description">Ocean</p>
+            </div>
+            </a>
+
+            <a href=""><div class="e-container e-hover">
+                <p class="emoji">&#128646;</p>
+                <p class="cnt-description">Train</p>
+            </div>
+            </a>
+
+            <a href=""><div class="e-container e-hover">
+                <p class="emoji">&#127967;</p>
+                <p class="cnt-description">Stadium</p>
+            </div>
+            </a>
+
+            <a href=""><div class="e-container e-hover">
+                <p class="emoji">&#128099;</p>
+                <p class="cnt-description">Steps</p>
+            </div>
+            </a>
+
+            <a href=""><div class="e-container e-hover">
+                <p class="emoji">&#128368;</p>
+                <p class="cnt-description">Clock</p>
+            </div>
+            </a>
+        </section>
+
+        <section class="lower">
+            <p class="p-lower">...get more with <span>premium</span></p>
+            <div class="button">
+                <p class="btn-text">Check pricing</p>
+            </div>
+        </section>
+        <!-- <audio controls autoplay> -->
+            <source src="NikiN - LoFi Hip Hop.mp3" type="audio/mpeg">
+        </audio>
+        <footer>
+            <p class="maker">made by <a href=""><span>@phyatur</span></a></p>
+            <p>Copyright &copy; 2022</p>
+            <div class="social">
+                <p class="maker">Socials: </p>
+                <a href="" class="twitter"><img src="./images/twitter.svg" alt="twitter"></a>
+                <a href=""><img src="./images/IG.svg" alt="insta"></a>
+            </div>
+            
+
+        </footer>
+    </main>
+
+   <!-- <script>       
+   let playSound = () => new Audio("src.mp3").play();
+</script> -->
+
+
+</body>
+</html>
