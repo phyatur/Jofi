@@ -124,6 +124,7 @@ section {
     font-size: 96px;
     line-height: 115px;
     margin-top: 28px;
+    text-decoration: underline;;
 }
 
 section > img {
@@ -473,4 +474,12 @@ input{
         text-align: center;
         color: #000000;
         margin-top: 50px;
+}
+
+.language {
+    margin: 200px;
+}
+
+.map-header {
+    margin-top: 20px;
 }
